@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import "./Certifications.css";
 import azure from "../../assets/Azure.png"
 import nptelCertificate from "../../assets/Nptel.jpg"
-import iot from "../../assets/iot.jpg"
-import mern from "../../assets/Mern.jpg"
+import iot from "../../assets/iot.png"
+import mern from "../../assets/Mern.png"
 const certificates = [
   {
     imgSrc: azure ,
