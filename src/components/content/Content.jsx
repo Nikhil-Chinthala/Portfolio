@@ -1,5 +1,6 @@
 import React from 'react'
 import photo from '../../assets/profile.png'
+import resume from '../../assets/ChinthalaNikhil.pdf'
 import "./Content.css"
 function Content() {
   const handleLinkedIn = () => {
@@ -15,7 +16,7 @@ function Content() {
   }
   const handleResume = () => {
     let ResumeDomElement = document.createElement("a")
-    ResumeDomElement.href = "src/components/content/Chinthala Nikhil.pdf"
+    ResumeDomElement.href = resume
     ResumeDomElement.click()
   }
   return (

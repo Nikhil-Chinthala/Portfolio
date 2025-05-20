@@ -3,25 +3,25 @@ import "./Certifications.css";
 
 const certificates = [
   {
-    imgSrc: "./src/components/certifications/Azure.png",
+    imgSrc: "./src/assets/Azure.png",
     title: "AZURE AI Fundamentals",
     issuer: "Microsoft",
     color: "navy",
   },
   {
-    imgSrc: "./src/components/certifications/Introduction To Internet Of Things .jpg",
+    imgSrc: "./src/assets/Introduction To Internet Of Things .jpg",
     title: "NPTEL - Internet oF Things",
     issuer: "IIT - Kanpur",
     color: "red",
   },
   {
-    imgSrc: "./src/components/certifications/iot.png",
+    imgSrc: "./src/assets/iot.png",
     title: "Embedded Systems and IOT",
     issuer: "Brain O Vision",
     color: "green",
   },
   {
-    imgSrc: "./src/components/certifications/MERNCertificate-1.png",
+    imgSrc: "./src/assets/MERNCertificate-1.png",
     title: "MERN Stack Developer",
     issuer: "Quality Thought",
     color: "green",
