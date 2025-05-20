@@ -1,27 +1,30 @@
 import React, { useState } from 'react';
 import "./Certifications.css";
-
+import azure from "../../assets/Azure.png"
+import nptelCertificate from "../../assets/Nptel.jpg"
+import iot from "../../assets/iot.jpg"
+import mern from "../../assets/Mern.jpg"
 const certificates = [
   {
-    imgSrc: "./src/assets/Azure.png",
+    imgSrc: azure ,
     title: "AZURE AI Fundamentals",
     issuer: "Microsoft",
     color: "navy",
   },
   {
-    imgSrc: "./src/assets/Introduction To Internet Of Things .jpg",
+    imgSrc: nptelCertificate ,
     title: "NPTEL - Internet oF Things",
     issuer: "IIT - Kanpur",
     color: "red",
   },
   {
-    imgSrc: "./src/assets/iot.png",
+    imgSrc: iot ,
     title: "Embedded Systems and IOT",
     issuer: "Brain O Vision",
     color: "green",
   },
   {
-    imgSrc: "./src/assets/MERNCertificate-1.png",
+    imgSrc:mern ,
     title: "MERN Stack Developer",
     issuer: "Quality Thought",
     color: "green",
