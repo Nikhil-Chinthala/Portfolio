@@ -25,7 +25,7 @@ const certificates = [
   },
   {
     imgSrc:mern ,
-    title: "MERN Stack Developer",
+    title: "MERN Full Stack Developer",
     issuer: "Quality Thought",
     color: "green",
   }

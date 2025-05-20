@@ -44,7 +44,7 @@ p{
   box-shadow: 0 0 0 5px red;
 }
 
-@media screen and (min-width:768px) and (max-width: 981px){
+@media screen and (min-width:468px) and (max-width: 981px){
   .dashboard-container {
   min-height: 100vh;
   display: flex;
@@ -59,29 +59,27 @@ p{
  background-image: url(https://html.nkdev.info/skylith/assets/images/bg-menu-full-2.jpg);
 }
 p{
-  font-family: cursive;
-  font-size:30px;
-  width: 500px;
+  font-size:70px;
+  width: 900px;
   margin-bottom:50px ;
-  margin-left: 50px;
+  margin-left: 10px;
   color: rgb(220, 16, 16);
 }
 
 .dashboard-title {
-  font-family: cursive;
   display: flex;
-  width: 150px;
+  width: 350px;
   font-size: 3rem;
-  margin-right: 300px;
+  margin-right: 370px;
   margin-bottom: 30px;
   font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 110px;
 }
 
 .enter-button {
-  font-family: cursiven;
-  padding: 15px 40px;
-  font-size: 18px;
+  padding: 25px 60px;
+  font-size: 45px;
   font-weight: 700;
   margin-left: 40px;
   color:white;
@@ -96,4 +94,5 @@ p{
   color: black;
   box-shadow: 0 0 0 5px red;
 }
+
 }
