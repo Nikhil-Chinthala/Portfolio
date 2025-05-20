@@ -66,12 +66,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 2200px;
+    height: 1950px;
     width: 100%;
     }
     .skillContent {
     width: 87%;
-    height: 1700px;
+    height: 1500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -84,8 +84,8 @@
 }  
 .skillContent div, .img8 {
     width: calc(50% - 20px); /* 2 items per row on large screens */
-    max-width: 350px;
-    height: 320px;
+    max-width: 330px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;

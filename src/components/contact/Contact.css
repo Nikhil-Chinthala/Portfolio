@@ -98,7 +98,7 @@ input{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:2200px;
+    height:1950px;
     width: 100%;
     }
     .phnContent{
@@ -108,7 +108,7 @@ input{
         text-align: center;
           background-color:black ;
     width: 87%;
-    height:1700px;
+    height:1500px;
     padding: 40px;
     box-shadow: 0px 0px 10px black;
     transition:1s ;

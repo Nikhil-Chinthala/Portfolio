@@ -55,12 +55,11 @@ p{
   align-items: center;
   text-align: center;
   background-size: cover;
-
  background-image: url(https://html.nkdev.info/skylith/assets/images/bg-menu-full-2.jpg);
 }
 p{
-  font-size:70px;
-  width: 900px;
+  font-size:50px;
+  width: 700px;
   margin-bottom:50px ;
   margin-left: 10px;
   color: rgb(220, 16, 16);
@@ -74,7 +73,7 @@ p{
   margin-bottom: 30px;
   font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  font-size: 110px;
+  font-size: 90px;
 }
 
 .enter-button {
