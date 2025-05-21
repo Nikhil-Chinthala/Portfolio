@@ -7,6 +7,15 @@
     width: 100%;
     background-image: linear-gradient(rgba(158, 106, 106, 0), rgba(20, 50, 66, 10)), url(https://wallpaperaccess.com/full/5652030.jpg);
 }
+.certificatecontainer {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: zoomIn 1s ease-out forwards;
+    }
+    @keyframes zoomIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
 
 .certificate {
     width: 80%;
@@ -106,8 +115,19 @@
     align-items: center;
     height: 1950px;
     width: 100%;
- 
     }
+    .certificatecontainer {
+  opacity: 0;
+  transform: translateX(30px); /* Starts 30px to the right */
+  animation: fadeSlideRight 2s ease-out forwards;
+}
+
+@keyframes fadeSlideRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
     .certificate {
     width: 87%;
     height: 1500px;

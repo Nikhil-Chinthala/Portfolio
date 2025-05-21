@@ -8,6 +8,15 @@
     font-family: cursive;
     background-image: linear-gradient( rgba(158, 106, 106, 0), rgba(20, 50, 66, 10)),url(https://wallpaperaccess.com/full/5652030.jpg);   
 }
+.projectContainer  {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: zoomIn 1s ease-out forwards;
+    }
+    @keyframes zoomIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
 .projectContent{
     width: 80%;
     height:400px;
@@ -89,6 +98,42 @@
     border-radius: 10px;
     margin-right: 10px;
     margin-top: 55px; 
+}
+.footer1 button{
+  opacity: 0;
+  transform: translateX(30px); /* Starts 30px to the right */
+  animation: fadeSlideRight 2s ease-out forwards;
+}
+
+@keyframes fadeSlideRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.footer3 button{
+  opacity: 0;
+  transform: translateX(30px); /* Starts 30px to the right */
+  animation: fadeSlideRight 2s ease-out forwards;
+}
+
+@keyframes fadeSlideRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.footer2 button{
+  opacity: 0;
+  transform: translateX(30px); /* Starts 30px to the right */
+  animation: fadeSlideRight 2s ease-out forwards;
+}
+
+@keyframes fadeSlideRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .project1:hover,.project2:hover,.project3:hover{
     background-color: rgba(154, 146, 146, 0.655);
@@ -224,5 +269,16 @@
     transition-duration: 1s;
     transform:scale(1.1) ;
 }
+.projectContainer  {
+  opacity: 0;
+  transform: translateX(30px); /* Starts 30px to the right */
+  animation: fadeSlideRight 2s ease-out forwards;
+}
 
+@keyframes fadeSlideRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 }
