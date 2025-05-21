@@ -8,10 +8,10 @@
  
     background-image: linear-gradient(rgba(158, 106, 106, 0), rgba(20, 50, 66, 10)), url(https://wallpaperaccess.com/full/5652030.jpg);
 }
-.skillContainer {
+.skillContent i{
       opacity: 0;
       transform: translateY(30px);
-      animation: zoomIn 1s ease-out forwards;
+      animation: zoomIn 2.5s ease-out forwards;
     }
     @keyframes zoomIn {
     0% { transform: scale(0.5); opacity: 0; }
@@ -78,18 +78,11 @@
     height: 1950px;
     width: 100%;
     }
-    .skillContainer {
-  opacity: 0;
-  transform: translateX(30px); /* Starts 30px to the right */
-  animation: fadeSlideRight 2s ease-out forwards;
-}
+    .skillContent h3{
+        font-size: 50px;
+    }
+    
 
-@keyframes fadeSlideRight {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
     .skillContent {
     width: 87%;
     height: 1500px;
@@ -105,7 +98,7 @@
 }  
 .skillContent div, .img8 {
     width: calc(50% - 20px); /* 2 items per row on large screens */
-    max-width: 330px;
+    max-width: 340px;
     height: 270px;
     display: flex;
     flex-direction: column;
@@ -128,6 +121,15 @@
 .skillContent i {
     font-size: 100px;
    margin-top: 40px;
+}
+.skillContent i{
+      opacity: 0;
+      transform: translateY(30px);
+      animation: zoomIn 2.5s ease-out forwards;
+    }
+    @keyframes zoomIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
 }
 
 .skillContent img {
