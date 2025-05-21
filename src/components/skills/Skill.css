@@ -58,8 +58,10 @@
 
 .skillContent img {
     width: 80px;
-    height: 80px;
+    height: 80px;   
 }
+
+
 
 .skillContent div:hover, .img8:hover {
     transform: scale(1.1);
@@ -68,6 +70,8 @@
 .skillContent h3{
     color:blue;
 }
+
+
 
 
 
