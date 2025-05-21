@@ -65,6 +65,9 @@
     transform: scale(1.1);
     box-shadow: 0px 0px 20px rgb(9, 9, 211);
 }
+.skillContent h3{
+    color:blue;
+}
 
 
 
@@ -121,6 +124,7 @@
 .skillContent i {
     font-size: 100px;
    margin-top: 40px;
+   
 }
 .skillContent i{
       opacity: 0;
@@ -135,6 +139,9 @@
 .skillContent img {
     width: 190px;
     height: 120px;
-    margin-top: 50px;
+    margin-top: 50px;  
+}
+.skillContent h3{
+    color:blue;
 }
 }

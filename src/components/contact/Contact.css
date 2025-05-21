@@ -91,6 +91,15 @@ input{
     width: 20px;
     height: 40px;   
 }
+.footerfont{
+      opacity: 0;
+      transform: translateY(30px);
+      animation: zoomIn 2s ease-out forwards;
+    }
+    @keyframes zoomIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
 
 @media screen and (min-width:468px) and (max-width: 981px)  {
     .contactContainer{
@@ -183,5 +192,14 @@ input{
 .right a{
     font-size: 40px;
 }
+}
+.footerfont{
+      opacity: 0;
+      transform: translateY(30px);
+      animation: zoomIn 2s ease-out forwards;
+    }
+    @keyframes zoomIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
 }
 
